@@ -1,0 +1,845 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+
+/* menu start */
+
+.menu-icon {
+    display: none;
+}
+
+.menu {
+    display: flex;
+}
+
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #1D1D1F;
+    padding-left: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+.menu ul li a.active,
+.menu ul li a:hover {
+    color: #06C167;
+}
+
+.navber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 0;
+}
+
+.logo h2 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #06C167;
+}
+
+/* menu End */
+
+/* hero-section-top start */
+
+.hero-section-top {
+    display: flex;
+    align-items: center;
+}
+
+.hero-section-left-side {
+    align-items: center;
+    flex: 2;
+    margin-top: -160px;
+}
+
+.hero-section-right-side {
+    flex: 2;
+    position: relative;
+}
+
+.hero-section-left-side h1 {
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #1D1D1F;
+    margin-bottom: 20px;
+}
+
+.hero-section-left-side p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(29, 29, 31, 0.75);
+    padding-right: 60px;
+}
+
+a.boxed-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #06C167;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    padding: 24px 30px;
+    transition: .5s;
+}
+
+a.boxed-btn:hover {
+    background-color: #00a86b;
+    color: #fff;
+}
+
+.button-area {
+    margin-top: 30px;
+}
+
+.boxed-btn i.fa {
+    padding-left: 10px;
+}
+
+.right-side-img .top-img-1 {
+    margin-left: 60px;
+    margin-top: 35px;
+}
+
+
+.right-product {
+    display: flex;
+    width: 235px;
+    padding: 5px;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 30px;
+    color: #000;
+    position: absolute;
+    top: 240px;
+    right: 13px;
+}
+
+.left-Ratings .Ratings-icon {
+    color: #06C167;
+    padding-left: 3px;
+}
+
+.product-text {
+    align-items: center;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.polcadot {
+    position: relative;
+}
+
+.polcadot img {
+    position: absolute;
+    right: 22px;
+    bottom: 0;
+}
+
+
+.left-Ratings {
+    background-color: #fff;
+    width: 250px;
+    color: #000;
+    padding: 15px;
+    border-radius: 30px;
+    position: absolute;
+    top: 330px;
+    left: -35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.header-section-bg {
+    background-color: #F3FCF7;
+    max-height: 663px;
+
+}
+
+.company-brand-logo {
+    display: flex;
+}
+
+.brand-logo {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0px;
+}
+
+.header-section-bg-brand-logo {
+    padding-bottom: 60px;
+}
+
+/* hero-section-top end */
+
+/* features-icons-start */
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    /* border-top: 1px solid rgba(112, 112, 112, 1);
+    border-bottom: 1px solid rgba(112, 112, 112, 1); */
+}
+
+.info-section-border {
+    position: relative;
+    z-index: 1;
+}
+
+.info-section-border:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    content: "";
+    background: #707070;
+    opacity: .3;
+}
+
+
+.info-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon {
+    background-color: #F3FCF7;
+    color: #06C167;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+a.btn i.fa-solid {
+    margin-left: 15px;
+}
+
+.text h4 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #1D1D1F;
+}
+
+.text p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1D1D1F;
+    margin-top: 5px;
+}
+
+/* features-icons-end */
+
+/* The More Healthy Food The Better start*/
+
+.Healthy-Food {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+    gap: 35px;
+}
+
+.image-box {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-box img {
+    width: 100%;
+    max-width: 541px;
+    max-height: 608px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.text-box {
+    flex: 1;
+    color: #1D1D1F;
+    position: relative;
+}
+
+.Healthy-Food-Efact {
+    position: absolute;
+    top: 42px;
+    left: -45px;
+    z-index: -1;
+}
+
+.subtitle {
+    font-size: 15px;
+    font-weight: 500;
+    color: #1D1D1F;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.benefits {
+    list-style: none;
+}
+
+.benefits li {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #1D1D1F;
+}
+
+.benefits i {
+    color: #06C167;
+    font-size: 18px;
+}
+
+/* The More Healthy Food The Better end*/
+
+/* Veggie-Food-Goes-On-And-Always-On-start */
+
+.Veggie-Food-Goes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 70px 0;
+}
+
+.Veggie-Food-title {
+    position: relative;
+}
+
+.Veggie-Food-img {
+    position: absolute;
+    top: 27px;
+    left: -58px;
+    z-index: -1;
+}
+
+.Veggie-Food {
+    flex: 1;
+}
+
+.small-text {
+    font-size: 15px;
+    font-weight: 500;
+    color: #1D1D1F;
+    margin-bottom: 10px;
+}
+
+.main-heading {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 40px;
+}
+
+.numbers-row {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.number-box h2 {
+    color: #06C167;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.number-box p {
+    color: #666;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.promo-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #06C167;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    border-radius: 4px;
+    transition: .5s;
+}
+
+.promo-btn:hover {
+    background-color: #00925b;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.img-hero-1 {
+    display: flex;
+}
+
+.img-hero-2 {
+    display: none;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 541px;
+    max-height: 608px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Veggie-Food-Goes-On-And-Always-On-end */
+
+
+
+/* Variety-Of-Foods-section-start  */
+
+.features {
+    text-align: center;
+    max-width: 1170px;
+    padding: 70px 0;
+}
+
+.sub-title {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    /* gap: 24px; */
+}
+
+.grid-item-first {
+    display: flex;
+}
+
+.grid-item-lest {
+    display: flex;
+}
+
+.item {
+    flex: 1 1 280px;
+    min-width: 280px;
+    border: 1px solid #2ecc71;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.content {
+    background-color: #F3FCF7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    text-align: left;
+}
+
+.content h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #1D1D1F;
+}
+
+.btn {
+    text-decoration: none;
+    background: #bfffd2;
+    color: #00a86b;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: .5s;
+}
+
+.features .btn {
+    background-color: #E6F9F0;
+    border: none;
+}
+
+.features .btn:hover {
+    background-color: #06C167;
+    color: #fff;
+}
+
+/* Variety-Of-Foods-section-end  */
+
+
+
+/* Most Popular Product start */
+
+.product-section {
+    text-align: center;
+    width: 100%;
+    padding: 70px 0;
+}
+
+.product-section .sub-title,
+.product-section .title {
+    text-align: left;
+}
+
+.sub-title {
+    font-size: 15px;
+    font-weight: 500;
+    color: #1D1D1F;
+    line-height: 100%;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    border: 2px solid #76767540;
+    border-radius: 6px;
+    padding: 20px;
+    width: 270px;
+    height: 445px;
+    background: #fff;
+    transition: .5s;
+}
+
+.product-card.active,
+.product-card:hover {
+    border: 2px solid #2ecc71;
+}
+
+.img-box {
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.img-box img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.stars {
+    color: #06C167;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    margin-bottom: 20px;
+    color: #1D1D1F;
+}
+
+.price {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #06C167;
+}
+
+.price span {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: line-through;
+    color: #767675;
+    margin-right: 5px;
+    opacity: .5;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 26px;
+    color: #06C167;
+    border-radius: 4px;
+    display: inline-block;
+    transition: .3s;
+    font-size: 16px;
+    font-weight: 400;
+    border: 2px solid #06C167;
+    background-color: transparent;
+}
+
+.btn:hover {
+    background: #2ecc71;
+    color: #fff;
+}
+
+/* Most Popular Product end */
+
+/* Veggie Foods? Ingredients You Want To Try start */
+
+.banner-section {
+    width: 100%;
+    max-width: 1170px;
+    height: 459px;
+    background-image: url("img/Banner-imge(1).png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.banner-section-bg-img {
+    position: relative;
+    z-index: -1;
+}
+
+.banner-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.banner-content {
+    text-align: center;
+    color: #fff;
+}
+
+.banner-content h2 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.banner-btn {
+    display: inline-block;
+    background: #06C167;
+    color: #fff;
+    padding: 20px 20px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .3s;
+}
+
+.banner-btn i {
+    margin-left: 8px;
+}
+
+.banner-btn:hover {
+    background: #009f43;
+}
+
+
+/* Veggie Foods? Ingredients You Want To Try end */
+
+/* footer section start  */
+
+.footer-section {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 60px 0 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 220px;
+}
+
+.footer-logo {
+    color: #06C167;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.footer-col p {
+    color: #1D1D1F;
+    font-size: 16px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 12px;
+    color: #1D1D1F;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #00c853;
+}
+
+.footer-col h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #1D1D1F;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 15px;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: #1D1D1F;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .3s;
+}
+
+.footer-col ul li a:hover {
+    color: #00c853;
+}
+
+/* Subscribe Box */
+.footer-subscribe {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    gap: 10px;
+}
+
+.footer-subscribe input {
+    flex: 1;
+    padding: 8px 10px;
+    border: none;
+    background: #f4f4f4;
+    border-radius: 3px 0 0 3px;
+    outline: none;
+    font-size: 14px;
+    width: 150px;
+    height: 40px;
+}
+
+.subscribe-btn {
+    background: #06C167;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.subscribe-btn:hover {
+    background: #009f43;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1D1D1F;
+}
+
+
+/* footer section end  */
